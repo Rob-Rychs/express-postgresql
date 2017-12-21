@@ -6,27 +6,27 @@
 var posts = [
   {
     id: 1,
-    author: 'Johny',
+    author: 'Rob',
     title: 'Templating with EJS',
-    body: 'Blog post number 1'
+    body: 'EJS provides a nice syntax for creating both template partials and page layouts as well as conditional rendering, looping through arrays of values and rendering data from javascript objects and JSONs into html view templates receiving the data passed to it from the controller which is defined in the model. Here the Model is Sequelize, the View is EJS and the Controllers are vanilla es5 js.'
   },
   {
     id: 2,
     author: 'Drake',
-    title: 'Express: Starting from the Bottom',
-    body: 'Blog post number 2'
+    title: 'Express: Started from the Bottom now you app.(getting) it',
+    body: 'It\'s not a node.js app without express, the NPM legend.'
   },
   {
     id: 3,
-    author: 'Em',
-    title: 'Streams',
-    body: 'Blog post number 3'
+    author: 'Rob',
+    title: 'Secure Auth',
+    body: 'Secure local authentication using postgresql and bcrypt. Session storage cookies active for 30 days.'
   },
   {
     id: 4,
-    author: 'Bob',
-    title: 'Events',
-    body: 'Blog post number 4'
+    author: 'Rob',
+    title: 'AngularJs Forms',
+    body: 'Utilize the power of two-way data binding, custom validation and more form handler methods like ng-model, ng-submit, etc...'
   }
 ]
 
