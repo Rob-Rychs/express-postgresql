@@ -13,7 +13,7 @@ var posts = [
   {
     id: 2,
     author: 'Drake',
-    title: 'Express: Started from the Bottom now you app.(getting) it',
+    title: 'Express: Started from the Bottom now your app.(getting) it',
     body: 'It\'s not a node.js app without express, the NPM legend.'
   },
   {
