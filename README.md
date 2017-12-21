@@ -1,6 +1,10 @@
 Express + PostgreSQL Blog
 =======================
 
+![image](./screenshots/sign-in.png)
+
+Check-out the [live demo](https://whispering-tor-53151.herokuapp.com/) 
+
 Started with a boilerplate for **Node.js** web applications, which uses PostgreSQL database
 
 **PostgreSQL 9.3** which introduced a new `JSON` field type, which allows not only to store any JSON object, but also query it as well. And you still have a proper and *ACID*-compliant relational database!
