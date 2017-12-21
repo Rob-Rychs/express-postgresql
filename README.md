@@ -272,7 +272,6 @@ List of Packages
 | passport-local                  | Sign-in with Username and Password plugin.                            |
 | passport-linkedin-oauth2        | Sign-in with LinkedIn plugin.                                         |
 | passport-oauth                  | Allows you to set up your own OAuth 1.0a and OAuth 2.0 strategies.    |
-| paypal-rest-sdk                 | PayPal APIs library.                                                  |
 | pg                              | PostgreSQL client                                                     |
 | pg-hstore                       | Module for handling JSON data in Postgres (required if you use JSON)  |
 | request                         | Simplified HTTP request library.                                      |
