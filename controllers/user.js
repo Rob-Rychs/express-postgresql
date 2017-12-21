@@ -40,9 +40,9 @@ exports.postLogin = function(req, res, next) {
     req.logIn(user, function(loginErr) {
       if (loginErr) return next(loginErr);
       req.flash('success', { msg: 'Success! You are logged in.' });
-      var redirectTo = req.session.returnTo || '/';
-      delete req.session.returnTo;
-      res.redirect(redirectTo);
+      // var redirectTo = req.session.returnTo || '/';
+      // delete req.session.returnTo;
+      res.redirect('/');
     });
   })(req, res, next);
 };
