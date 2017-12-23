@@ -5,7 +5,7 @@ var mailer = require('sendgrid')(secrets.sendgrid.api_key);
 
 var service = {};
 
-var applicationName = 'Express Starter';
+var applicationName = 'Express PostgreSQL Blog';
 var senderAddress = 'Mailing <mailing@starter.com>';
 
 service.sendRequestPasswordEmail = function(email, host, token, done) {
