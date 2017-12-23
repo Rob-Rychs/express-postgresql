@@ -20,7 +20,7 @@ var posts = [
     id: 3,
     author: 'Rob',
     title: 'Secure Auth',
-    body: 'Secure local authentication using postgresql and bcrypt. Session storage cookies active for 30 days.'
+    body: 'Secure local authentication using postgresql and bcrypt. Session storage cookies for this site are active for 30 days.'
   },
   {
     id: 4,
